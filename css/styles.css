@@ -233,6 +233,7 @@ header {
 }
 /*-------------------------------HEADER END-----------------------------*/
 /*-------------------------------MAIN ST-----------------------------*/
+/*-------------------------------NEWS ST-----------------------------*/
 .gr_man {
 	float: left;
 	display: block;
@@ -421,12 +422,53 @@ header {
 	letter-spacing: 0.75px;
 }
 
+/*-------------------------------NEWS END-----------------------------*/
+/*-------------------------------FEATURES ST-----------------------------*/
 .featured {
+	float: left;
+}
+
+#featured_text {
+	margin-left: 704px;
+	margin-top: 121px;
+	width: 194px;
+	height: 23px;
+	color: #222222;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 54px;
+}
+
+#featured_text a {
+	text-decoration: none;
+}
+#featured_text a:hover {
+	text-shadow: #222222 0 0 10px;
+}
+
+#featured_text a:visited {
+	color: #222222;
+}
+
+#featured_text_two {
+	margin-left: 635px;
+	margin-top: 16px;
+	width: 348px;
+	height: 12px;
+	color: #9f9f9f;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 54px;
+}
+
+.featured ul {
     clear: both;
     width: 1139px;
     float: left;
     margin-left: 232px;
-    margin-top: 211px;
+    margin-top: 60px;
 }
 
 .featured li {
@@ -476,5 +518,427 @@ header {
 	margin-top: 17px;
 }
 
+.img_clothes_one, .img_clothes_two, .img_clothes_three, .img_clothes_four, .img_clothes_five, .img_clothes_six, .img_clothes_seven, .img_clothes_eight {
+	width: 260px;
+	height: 280px;
+}
+
+.img_clothes_one {
+	background: url("../imgs/t-shirt.jpg") no-repeat;
+}
+
+.img_clothes_two {
+	background: url("../imgs/w-t-shirt-one.jpg") no-repeat;
+}
+.img_clothes_three {
+	background: url("../imgs/jacket.jpg") no-repeat;
+}
+
+.img_clothes_four {
+	background: url("../imgs/dress.jpg") no-repeat;
+}
+
+.img_clothes_five {
+	background: url("../imgs/blazer.jpg") no-repeat;
+}
+
+.img_clothes_six {
+	background: url("../imgs/hoody.jpg") no-repeat;
+}
+
+.img_clothes_seven {
+	background: url("../imgs/w-t-shirt-two.jpg") no-repeat;
+}
+
+.img_clothes_eight {
+	background: url("../imgs/pants.jpg") no-repeat;
+}
+
+.hover_img_clothes {
+	width: 260px;
+	height: 280px;
+	display: inline;
+	float: left;
+	opacity: 0;
+}
+
+.hover_img_clothes:hover {
+	opacity: 0.5;
+	background: url("../imgs/basket-hover.png") no-repeat;
+	background-position: 70px 98px;
+	background-color: #3a3838;
+}
+
+.featured li a img {
+	display: inline;
+}
+
+.browse_all {
+	display: block;
+	float: left;
+	margin-left: 694px;
+	margin-top: 79px;
+}
+
+.browse_all a {
+	display: block;
+	width: 212px;
+	height: 48px;
+	background-color: #f16d7f;
+	text-decoration: none;
+}
+
+.browse_all a h6 {
+	width: 145px;
+	height: 11px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-left: 30px;
+}
+
+.browse_all a img {
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.browse_all a:hover {
+	background-color: grey;
+}
+/*-------------------------------FEATURES END-----------------------------*/
+/*-------------------------------OFFERS ST-----------------------------*/
+
+.offers {
+	width: 1140px;
+	height: 529px;
+	background-color: #222224;
+	float: left;
+	margin-top: 113px;
+	margin-left: 239px;
+}
+
+.offers_inside_left {
+	position: relative;
+	width: 767px;
+	height: 529px;
+	float: left;
+}
+
+.offers_girl {
+	position: absolute;
+	width: 767px;
+	height: 529px;
+	background: url("../imgs/girl.jpg") no-repeat;
+}
+
+.offers_girl_dark {
+	z-index: 0;
+	position: absolute;
+	width: 767px;
+	height: 529px;
+	background-image: url("../imgs/dark.png");
+	opacity: 0;
+}
+
+.offers_girl:hover .offers_girl_dark {
+	opacity: 1;
+}
+
+.offers_text {
+	position: relative;
+	z-index: 1;
+	width: 293px;
+	height: 78px;
+	font-family: Lato;
+	font-size: 54px;
+	font-weight: 700;
+	margin-top: 146px;
+	margin-left: 39px;
+}
+
+.offers_text h4 {
+	float: left;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 54px;
+	font-weight: 700;
+}
+
+.offers_text h5 {
+	color: #f16d7f;
+	letter-spacing: 1.5px;
+	margin-left: 120px;
+	font-size: 54px;
+}
+
+.offers_text h6 {
+	clear: both;
+	font-size: 32px;
+	letter-spacing: 0.9px;
+	color: #ffffff;
+}
+
+.offers_inside_right {
+	position: relative;
+	width: 373px;
+	height: 529px;
+	float: left;
+}
+
+.free_delivery {
+	position: relative;
+}
+
+.img_truck {
+	margin-top: 48px;
+	margin-left: 36px;
+	float: left;
+}
+
+.truck_text {
+	float: right;
+	width: 252px;
+	height: 58px;
+}
+
+.truck_text:hover, .sales_text:hover, .quality_text:hover {
+	text-shadow: #fbfbfb 0 0 10px;
+}
+
+.truck_text h5 {
+	width: 126px;
+	height: 20px;
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 33px;
+	padding-top: 7px;
+	letter-spacing: 0.5px;
+}
+
+.truck_text h6 {
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-top: 12px;
+	letter-spacing: 0.35px;
+}
+
+.sales {
+	position: relative;
+}
+
+.img_percent {
+	margin-top: 124px;
+	margin-left: 36px;
+	float: left;
+}
+
+.sales_text {
+	float: right;
+	width: 252px;
+	height: 58px;
+}
+
+.sales_text h5 {
+	width: 162px;
+	height: 16px;
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 37px;
+	padding-top: 6px;
+	letter-spacing: 0.5px;
+}
+
+.sales_text h6 {
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-top: 12px;
+	letter-spacing: 0.35px;
+}
+
+.quality {
+	position: relative;
+}
+
+.img_crown {
+	margin-top: 114px;
+	margin-left: 32px;
+	float: left;
+}
+
+.quality_text {
+	float: right;
+	width: 252px;
+	height: 58px;
+}
+
+.quality_text h5 {
+	width: 168px;
+	height: 20px;
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 37px;
+	padding-top: 6px;
+	letter-spacing: 0.5px;
+}
+
+.quality_text h6 {
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-top: 12px;
+	letter-spacing: 0.35px;
+}
+/*-------------------------------OFFERS END-----------------------------*/
+/*-------------------------------REVIEW ST-----------------------------*/
+.review_back {
+	width: 1609px;
+	height: 438px;
+	background: url("../imgs/review_back.jpg");
+	float: left;
+	margin-top: 97px;
+	position: relative;
+}
+
+.review_dark {
+	position: relative;
+	width: 1609px;
+	height: 438px;
+	background: url("../imgs/review_dark.png");
+}
+
+/*Честно украденый слайдер и редактируемый под макет, но довести до конца ума не хватает, пока что. 
+И сделать под разные слайды*/
+
+.wrapper {
+	position: absolute;
+	height: 171px;
+	width: 497px;
+	margin-left: 240px;
+	margin-top: 111px;
+}
+
+.slider {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	height: 171px;
+	width: 497px;
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	height: 171px;
+	width: 497px;
+	transition: 2s;
+}
+
+.slide1 {
+	background: url("../imgs/review_girl.png") no-repeat;
+	background-position: 0 0;
+}
+.slide2 { 
+	background: url("../imgs/review_girl.png") no-repeat;
+	background-position: 0 0;
+}
+.slide3 { 
+	background: url("../imgs/review_girl.png") no-repeat;
+	background-position: 0 0;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3 {
+	opacity: 1;
+	z-index: 1;
+}
+
+.wrapper > input {
+	display: none;
+}
+
+.wrapper .controls {
+	margin-left: 105px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 4px;
+	position: relative;
+	width: 38px;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3) {
+	background: #f16d7f;
+}
+
+.wrapper label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 4px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 38px;
+}
+
+.slider_text {
+	width: 386px;
+	height: 68px;
+	color: #222224;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 26px;
+	margin-left: 100px;
+	margin-top: 12px;
+}
+
+.slider_text_two {
+	margin-left: 103px;
+	margin-top: 16px;
+}
+
+.slider_text_two h5 {
+	width: 82px;
+	height: 27px;
+	color: #f16d7f;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+}
+/*Честно украденый слайдер и редактируемый под макет, но довести до конца ума не хватает, пока что. 
+И сделать под разные слайды*/
+/*-------------------------------REVIEW END-----------------------------*/
 /*-------------------------------MAIN END-----------------------------*/
 
